@@ -1,3 +1,11 @@
 # Intentionally left empty. Cloudflare Pages resolves clean/extensionless URLs and
 # slug/index.html directory routing natively. No 200/301 rewrite rules needed here;
 # adding them has caused ERR_TOO_MANY_REDIRECTS loops on prior builds in this network.
+
+# Renamed blog slugs (city added). Each has a slash and a no-slash rule.
+/blog/septic-vs-sewer-clarke-oconee-county/ /blog/septic-vs-sewer-athens-ga-clarke-oconee-county/ 301
+/blog/septic-vs-sewer-clarke-oconee-county /blog/septic-vs-sewer-athens-ga-clarke-oconee-county/ 301
+/blog/watkinsville-winterville-plumbing-considerations/ /blog/watkinsville-winterville-plumbing-near-athens-ga/ 301
+/blog/watkinsville-winterville-plumbing-considerations /blog/watkinsville-winterville-plumbing-near-athens-ga/ 301
+/blog/well-water-plumbing-clarke-oconee-county/ /blog/well-water-plumbing-athens-ga-clarke-oconee-county/ 301
+/blog/well-water-plumbing-clarke-oconee-county /blog/well-water-plumbing-athens-ga-clarke-oconee-county/ 301
